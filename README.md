@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is for browsing new version of Solidus, 2.9.0 to me.
 
-Things you may want to cover:
+Runs with ...
+* Solidus 2.9.0
+* Ruby 2.6.3
+* Ruby on Rails 5.2.3
 
-* Ruby version
 
-* System dependencies
+# Setup
 
-* Configuration
+```$xslt
+bundle exec rails g spree:install
+bundle exec rails g solidus:auth:install
+bundle exec rake railties:install:migrations
+bin/rails s
+```
 
-* Database creation
 
-* Database initialization
+# Users
 
-* How to run the test suite
+Same as official Solidus.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```$xslt
+admin@example.com
+test123
+```
