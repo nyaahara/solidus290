@@ -35,3 +35,10 @@ test123
 * [ ] 
 
 
+# New features
+
+## Spree::Event
+
+1. Create subscriber like this commit.
+2. Use solidus to complete order for making sure subscriber adobe is working.
+3. ls tmp directory to find [Order.number].txt as a result of previous procedure.

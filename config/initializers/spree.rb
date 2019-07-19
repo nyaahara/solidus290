@@ -87,3 +87,5 @@ Spree.user_class = "Spree::LegacyUser"
 # just uncomment the following code and change it as you need.
 #
 # Spree::Model.whitelisted_ransackable_attributes << 'field'
+#
+Spree::Config.events.subscribers << 'CustomProcessor'
