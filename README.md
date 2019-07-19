@@ -26,3 +26,12 @@ Same as official Solidus.
 admin@example.com
 test123
 ```
+
+# TODO
+* [ ] Do something to ...
+* [ ] Localize
+* [ ] Try new features
+* [ ] Try changed features
+* [ ] 
+
+
